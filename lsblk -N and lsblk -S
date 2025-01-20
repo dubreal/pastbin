@@ -1,0 +1,9 @@
+jasonw@Nitro5-LM22:~$ lsblk -N
+NAME    TYPE MODEL           SERIAL                 REV TRAN   RQ-SIZE  MQ
+nvme0n1 disk HFM001TD3JX016N FJA7N573210607G3W 41020C20 nvme      1023  16
+jasonw@Nitro5-LM22:~$ lsblk -S
+NAME HCTL       TYPE VENDOR   MODEL                   REV SERIAL          TRAN
+sda  2:0:0:0    disk ATA      WDC WDS100T2B0A-00 401020WD 202035802252    sata
+sdb  3:0:0:0    disk PNY      USB 3.0 FD             PMAP 070B672FB4A85C2 usb
+sdc  4:0:0:0    disk NORELSYS 1081CS0                0100 0123456789ABCDE usb
+sdd  4:0:0:1    disk NORELSYS 1081CS1                0100 0123456789ABCDE usb
